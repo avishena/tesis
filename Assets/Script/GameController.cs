@@ -16,12 +16,21 @@ public class GameController : MonoBehaviour {
     public GameObject roundEndDisplay;
     public Text highScoreDisplay;
 
+    public Animator playerAnimator;
+    public Animator enemyAnimator;
+
+    public Slider playerHealth;
+    public Slider enemyHealth;
+    public Slider enemyTime;
+
     private DataController dataController;
     private RoundData currentRoundData;
     private QuestionData[] questionPool;
 
     private bool isRoundActive;
     private float timeRemaining;
+    private float playerHealthRemaining;
+    private float enemyHealthRemaining;
     private int questionIndex;
     private int playerScore;
     private List<GameObject> answerButtonGameObjects = new List<GameObject>();
@@ -32,8 +41,21 @@ public class GameController : MonoBehaviour {
         dataController = FindObjectOfType<DataController>();
         currentRoundData = dataController.GetCurrentRoundData();
         questionPool = currentRoundData.questions;
+
         timeRemaining = currentRoundData.timeLimitInSeconds;
+        enemyTime.maxValue = timeRemaining;
+        enemyTime.minValue = 0f;
         UpdateTimeRemainingDisplay();
+
+        playerHealthRemaining = 30f;
+        playerHealth.maxValue = playerHealthRemaining;
+        playerHealth.minValue = 0f;
+        UpdatePlayerHealthDisplay();
+
+        enemyHealthRemaining = 30f;
+        enemyHealth.maxValue = enemyHealthRemaining;
+        enemyHealth.minValue = 0f;
+        UpdateEnemyHealthDisplay();
 
         playerScore = 0;
         questionIndex = 0;
@@ -72,8 +94,28 @@ public class GameController : MonoBehaviour {
     {
         if (isCorrect)
         {
+            playerAnimator.SetTrigger("attack");
+            enemyAnimator.SetTrigger("attacked");
+
             playerScore += currentRoundData.pointsAddedForCorrectAnswer;
-            scoreDisplayText.text = "Score: " + playerScore.ToString(); 
+            scoreDisplayText.text = "Score: " + playerScore.ToString();
+
+            enemyHealthRemaining -= currentRoundData.pointsAddedForCorrectAnswer;
+            UpdateEnemyHealthDisplay();
+
+            timeRemaining = currentRoundData.timeLimitInSeconds;
+            UpdateTimeRemainingDisplay();
+
+        } else
+        {
+            enemyAnimator.SetTrigger("attack");
+            playerAnimator.SetTrigger("attacked");
+
+            playerHealthRemaining -= currentRoundData.pointsAddedForCorrectAnswer;
+            UpdatePlayerHealthDisplay();
+
+            timeRemaining = currentRoundData.timeLimitInSeconds;
+            UpdateTimeRemainingDisplay();
         }
 
         if (questionPool.Length > questionIndex + 1)
@@ -103,11 +145,22 @@ public class GameController : MonoBehaviour {
 
     private void UpdateTimeRemainingDisplay()
     {
-        timeRemainingDisplayText.text = "Time: " + Mathf.Round(timeRemaining).ToString();
+        //timeRemainingDisplayText.text = "Time: " + Mathf.Round(timeRemaining).ToString();
+        enemyTime.value = timeRemaining;
     }
-	
-	// Update is called once per frame
-	void Update ()
+
+    private void UpdatePlayerHealthDisplay()
+    {
+        playerHealth.value = playerHealthRemaining;
+    }
+
+    private void UpdateEnemyHealthDisplay()
+    {
+        enemyHealth.value = enemyHealthRemaining;
+    }
+
+    // Update is called once per frame
+    void Update ()
     {
 		if (isRoundActive)
         {
@@ -116,7 +169,24 @@ public class GameController : MonoBehaviour {
 
             if (timeRemaining <= 0f)
             {
-                EndRound();
+                enemyAnimator.SetTrigger("attack");
+                playerAnimator.SetTrigger("attacked");
+
+                playerHealthRemaining -= currentRoundData.pointsAddedForCorrectAnswer;
+                UpdatePlayerHealthDisplay();
+
+                timeRemaining = currentRoundData.timeLimitInSeconds;
+                UpdateTimeRemainingDisplay();
+
+                if (questionPool.Length > questionIndex + 1)
+                {
+                    questionIndex++;
+                    ShowQuestion();
+                }
+                else
+                {
+                    EndRound();
+                }
             }
         }
 	}
