@@ -1,0 +1,802 @@
+
+{
+	"allRoundData":
+	[
+		{
+			"name":"Bilangan Berpangkat dan Akar Pangkat",
+			"timeLimitInSeconds":180,
+			"pointsAddedForCorrectAnswer":10,
+			"questions":
+			[
+				{
+					"questionText":"29² - 7² = ....",
+					"answers":
+					[
+						{
+							"answerText":"792",
+							"isCorrect":true
+						},
+						{
+							"answerText":"793",
+							"isCorrect":false
+						},
+						{
+							"answerText":"795",
+							"isCorrect":false
+						},
+						{
+							"answerText":"796",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"16² – 8² = ....",
+					"answers":
+					[
+						{
+							"answerText":"8",
+							"isCorrect":false
+						},
+						{
+							"answerText":"64",
+							"isCorrect":false
+						},
+						{
+							"answerText":"192",
+							"isCorrect":true
+						},
+						{
+							"answerText":"320",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Hasil penarikan akar pangkat tiga dari bilangan 12.167 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"13",
+							"isCorrect":false
+						},
+						{
+							"answerText":"17",
+							"isCorrect":false
+						},
+						{
+							"answerText":"23",
+							"isCorrect":true
+						},
+						{
+							"answerText":"27",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"21² + 17² = ....",
+					"answers":
+					[
+						{
+							"answerText":"76",
+							"isCorrect":false
+						},
+						{
+							"answerText":"152",
+							"isCorrect":false
+						},
+						{
+							"answerText":"730",
+							"isCorrect":true
+						},
+						{
+							"answerText":"1.444",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Akar pangkat tiga dari 29.791 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"19",
+							"isCorrect":false
+						},
+						{
+							"answerText":"21",
+							"isCorrect":false
+						},
+						{
+							"answerText":"29",
+							"isCorrect":false
+						},
+						{
+							"answerText":"31",
+							"isCorrect":true
+						}
+					]
+				},
+				{
+					"questionText":"Akar pangkat tiga dari 27.000 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"3",
+							"isCorrect":false
+						},
+						{
+							"answerText":"9",
+							"isCorrect":false
+						},
+						{
+							"answerText":"30",
+							"isCorrect":true
+						},
+						{
+							"answerText":"90",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"55² – 48² = ....",
+					"answers":
+					[
+						{
+							"answerText":"721",
+							"isCorrect":true
+						},
+						{
+							"answerText":"621",
+							"isCorrect":false
+						},
+						{
+							"answerText":"712",
+							"isCorrect":false
+						},
+						{
+							"answerText":"751",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Akar pangkat tiga dari 24.389 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"31",
+							"isCorrect":false
+						},
+						{
+							"answerText":"19",
+							"isCorrect":false
+						},
+						{
+							"answerText":"29",
+							"isCorrect":true
+						},
+						{
+							"answerText":"31",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"49² – 29² = ....",
+					"answers":
+					[
+						{
+							"answerText":"1.560",
+							"isCorrect":true
+						},
+						{
+							"answerText":"1.460",
+							"isCorrect":false
+						},
+						{
+							"answerText":"1.561",
+							"isCorrect":false
+						},
+						{
+							"answerText":"400",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Akar pangkat tiga dari 46.656 ditambah dengan akar pangkat tiga dari 21.952 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"61",
+							"isCorrect":false
+						},
+						{
+							"answerText":"62",
+							"isCorrect":false
+						},
+						{
+							"answerText":"63",
+							"isCorrect":false
+						},
+						{
+							"answerText":"64",
+							"isCorrect":true
+						}
+					]
+				},
+				{
+					"questionText":"Akar pangkat tiga dari 5.832 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"42",
+							"isCorrect":false
+						},
+						{
+							"answerText":"28",
+							"isCorrect":false
+						},
+						{
+							"answerText":"38",
+							"isCorrect":false
+						},
+						{
+							"answerText":"18",
+							"isCorrect":true
+						}
+					]
+				}
+			]
+		},
+		{
+			"name":"FPB dan KPK",
+			"timeLimitInSeconds":180,
+			"pointsAddedForCorrectAnswer":10,
+			"questions":
+			[
+				{
+					"questionText":"Kelipatan persekutuan terkecil dari 90 dan 168 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"2 x 3 x 3 x 7",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2³ × 3² × 5 × 7",
+							"isCorrect":true
+						},
+						{
+							"answerText":"2³ × 3 × 5² × 7",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2² × 3³ × 5 × 7",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"FPB dari bilangan 48, 56 dan 72 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"87",
+							"isCorrect":false
+						},
+						{
+							"answerText":"8",
+							"isCorrect":false
+						},
+						{
+							"answerText":"9",
+							"isCorrect":true
+						},
+						{
+							"answerText":"11",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Di sebuah terminal tersedia buah bus dengan 3 jurusan yang berbeda. Bus jurusan kota A berangkat setiap 45 menit, bus dengan tujuan kota B berangkat setiap 60 menit,sedangkan bus dengan tujuan kota C berangkat setiap 1,5 jam. Jika ketiga bus tersebut berangkat bersama pada pukul 07.00, maka ketiga bus tersebut akan berangkat bersamaan lagi pada pukul ....",
+					"answers":
+					[
+						{
+							"answerText":"07.15",
+							"isCorrect":false
+						},
+						{
+							"answerText":"08.20",
+							"isCorrect":false
+						},
+						{
+							"answerText":"10.00",
+							"isCorrect":true
+						},
+						{
+							"answerText":"17.00",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Toko Pak Danu mempunyai persediaan 32 bola lampu merah, 72 bola lampu hijau dan 48 bola lampu kuning, semua bola lampu tersebut dimasukkan ke dalam beberapa kotak dengan jumlah sama banyak untuk setiap warnanya. Banyak bola lampu warna kuning pada setiap kotak adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"5 buah",
+							"isCorrect":false
+						},
+						{
+							"answerText":"6 buah",
+							"isCorrect":true
+						},
+						{
+							"answerText":"8 buah",
+							"isCorrect":false
+						},
+						{
+							"answerText":"9 buah",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"KPK dari 28 dan 36 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"2²",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2² × 3²",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2² × 7",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2² × 3² x 7",
+							"isCorrect":true
+						}
+					]
+				},
+				{
+					"questionText":"FPB dari 18, 36 dan 45 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"9",
+							"isCorrect":true
+						},
+						{
+							"answerText":"18",
+							"isCorrect":false
+						},
+						{
+							"answerText":"36",
+							"isCorrect":false
+						},
+						{
+							"answerText":"180",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Faktor persekutuan terbesar (FPB) dalam bentuk Faktorisasi dari 60 dan 40 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"2² × 5",
+							"isCorrect":true
+						},
+						{
+							"answerText":"2² × 3 x 5",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2² × 7",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2² × 3 x 5 x 7",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Jumlah dari semua nilai KPK dari 60, 36, dan 80 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"30",
+							"isCorrect":true
+						},
+						{
+							"answerText":"45",
+							"isCorrect":false
+						},
+						{
+							"answerText":"90",
+							"isCorrect":false
+						},
+						{
+							"answerText":"180",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Mia berenang setiap 5 hari sekali, Tiyas berenang setiap 6 hari sekali dan Salsabila 10 hari sekali. Bila mereka berenang bersama pada tanggal 24 Januari 2013, maka ketiga anak tersebut akan berenang secara bersama berikutnya pada tanggal ....",
+					"answers":
+					[
+						{
+							"answerText":"29 Januari 2013",
+							"isCorrect":false
+						},
+						{
+							"answerText":"30 Januari 2013",
+							"isCorrect":false
+						},
+						{
+							"answerText":"23 Februari 2013",
+							"isCorrect":true
+						},
+						{
+							"answerText":"24 Februari 2013",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Agus mempunyai 12 kelereng merah, 16 kelereng hitam, dan 20 kelereng biru. Kelereng – kelereng tersebut akan dimasukkan ke dalam beberapa kotak, setiap jenis kelereng yang terdapat dalam kotak sama banyak. Agus memerlukan kotak sebanyak ....",
+					"answers":
+					[
+						{
+							"answerText":"4",
+							"isCorrect":true
+						},
+						{
+							"answerText":"6",
+							"isCorrect":false
+						},
+						{
+							"answerText":"16",
+							"isCorrect":false
+						},
+						{
+							"answerText":"18",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Ibu Aan berbelanja ke pasar setiap 2 hari sekali, Ibu Aminah setiap 3 hari sekali, dan Ibu Hasan setiap 4 hari sekali. Jika mereka berbelanja untuk pertama kalinya pada tanggal 2 Maret, maka mereka akan berbelanja bersama-sama lagi untuk yang kedua kalinya pada tanggal ....",
+					"answers":
+					[
+						{
+							"answerText":"4 Maret",
+							"isCorrect":false
+						},
+						{
+							"answerText":"8 Maret",
+							"isCorrect":false
+						},
+						{
+							"answerText":"12 Maret",
+							"isCorrect":false
+						},
+						{
+							"answerText":"14 Maret",
+							"isCorrect":true
+						}
+					]
+				},
+				{
+					"questionText":"Faktor persekutuan terbesar (FPB) dalam bentuk faktorisasi dari 630 dan 945 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"2 x 3² × 5 x 7",
+							"isCorrect":true
+						},
+						{
+							"answerText":"3² × 5 x 7",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2 x 5 × 7",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2 x 3² × 5 x 7",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Faktor persekutuan terbesar (FPB) dari 39, 52 dan 78 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"2",
+							"isCorrect":false
+						},
+						{
+							"answerText":"3",
+							"isCorrect":false
+						},
+						{
+							"answerText":"13",
+							"isCorrect":true
+						},
+						{
+							"answerText":"15",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"KPK dari 15 dan 35 adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"3 × 5 x 7",
+							"isCorrect":true
+						},
+						{
+							"answerText":"3² x 7",
+							"isCorrect":false
+						},
+						{
+							"answerText":"3 x 5",
+							"isCorrect":false
+						},
+						{
+							"answerText":"3 x 5² × 7",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Dua buah lampu dinyalakan bersama-sama, lampu kuning menyala setiap 15 detik dan lampu merah menyala setiap dua belas detik. Kedua lampu akan menyala bersama-sama pada detik ke ....",
+					"answers":
+					[
+						{
+							"answerText":"75",
+							"isCorrect":false
+						},
+						{
+							"answerText":"60",
+							"isCorrect":true
+						},
+						{
+							"answerText":"24",
+							"isCorrect":false
+						},
+						{
+							"answerText":"18",
+							"isCorrect":false
+						}
+					]
+				},
+			]
+		},
+		{
+			"name":"Bangun Ruang dan Volume",
+			"timeLimitInSeconds":180,
+			"pointsAddedForCorrectAnswer":10,
+			"questions":
+			[
+				{
+					"questionText":"Sebuah kotak berbentuk kubus, mempunyai volume 46.656 cm³. Kotak tersebut diisi pasir hingga setengah bagian. Tinggi pasir dalam kotak tersebut adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"18 cm",
+							"isCorrect":true
+						},
+						{
+							"answerText":"19 cm",
+							"isCorrect":false
+						},
+						{
+							"answerText":"30 cm",
+							"isCorrect":false
+						},
+						{
+							"answerText":"36 cm",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Pak Hamid mempunyai kayu berbentuk balok dengan panjang 42 cm dan ukuran penampang 16 cm × 15 cm.Volume kayu Pak Hamid adalah ….",
+					"answers":
+					[
+						{
+							"answerText":"1.880 cm³",
+							"isCorrect":false
+						},
+						{
+							"answerText":"9.870 cm³",
+							"isCorrect":false
+						},
+						{
+							"answerText":"10.080 cm³",
+							"isCorrect":true
+						},
+						{
+							"answerText":"11.340 cm³",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"imagePath":"QuestionImage/BangunDatar1",
+					"questionText":"Luas Bangun di samping adalah ... cm",
+					"hasImage":true,
+					"answers":
+					[
+						{
+							"answerText":"1296",
+							"isCorrect":true
+						},
+						{
+							"answerText":"648",
+							"isCorrect":false
+						},
+						{
+							"answerText":"324",
+							"isCorrect":false
+						},
+						{
+							"answerText":"72",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Sebuah aquarium memiliki panjang 120 cm, lebar 60 cm, dan tinggi 80 cm. Air yang diperlukan untuk mengisi separuh volume akuarium adalah .... liter.",
+					"answers":
+					[
+						{
+							"answerText":"288.000",
+							"isCorrect":true
+						},
+						{
+							"answerText":"28.800",
+							"isCorrect":false
+						},
+						{
+							"answerText":"288",
+							"isCorrect":false
+						},
+						{
+							"answerText":"168",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Anton sedang membuat mainan spin wheel dari kayu triplek. Mainan tersebut berbentuk lingkaran berdiameter 56 cm. Keliling mainan tersebut adalah ... cm.",
+					"answers":
+					[
+						{
+							"answerText":"168",
+							"isCorrect":false
+						},
+						{
+							"answerText":"176",
+							"isCorrect":true
+						},
+						{
+							"answerText":"182",
+							"isCorrect":false
+						},
+						{
+							"answerText":"186",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Sebuah lingkaran mempunyai keliling 176 cm. Luas lingkaran tersebut adalah .... cm²",
+					"answers":
+					[
+						{
+							"answerText":"2.386",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2.464",
+							"isCorrect":true
+						},
+						{
+							"answerText":"2.492",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2.496",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Sebuah balok memiliki ukuran panjang 25 cm, lebar 15 cm dan tinggi 10 cm. Luas permukaan balok tersebut adalah .... cm²",
+					"answers":
+					[
+						{
+							"answerText":"1.500",
+							"isCorrect":false
+						},
+						{
+							"answerText":"1.525",
+							"isCorrect":false
+						},
+						{
+							"answerText":"1.550",
+							"isCorrect":true
+						},
+						{
+							"answerText":"1.575",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Sebuah tanah lapang berbentuk persegi panjang dengan ukuran 125 m x 75 m. Jika Arman mengelilingi lapangan tersebut sebanyak lima kali, maka jarak yang ditempuh Arman adalah .... m",
+					"answers":
+					[
+						{
+							"answerText":"2.000",
+							"isCorrect":true
+						},
+						{
+							"answerText":"2.005",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2.015",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2.025",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Nando ingin membuat layang-layang dengan panjang diagonal 35 dan 42 cm. Luas layang-layang Nando adalah .... cm²",
+					"answers":
+					[
+						{
+							"answerText":"735",
+							"isCorrect":true
+						},
+						{
+							"answerText":"740",
+							"isCorrect":false
+						},
+						{
+							"answerText":"745",
+							"isCorrect":false
+						},
+						{
+							"answerText":"750",
+							"isCorrect":false
+						}
+					]
+				}
+			]
+		}
+	]
+}

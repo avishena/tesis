@@ -7,8 +7,10 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour {
 
     public Text questionText;
+    public Text questionTextImage;
     public Text scoreDisplayText;
     public Text timeRemainingDisplayText;
+    public Image questionImageDisplay;
     public SimpleObjectPool answerButtonObjectPool;
     public Transform answerButtonParent;
 
@@ -33,11 +35,15 @@ public class GameController : MonoBehaviour {
     private float enemyHealthRemaining;
     private int questionIndex;
     private int playerScore;
+    private Sprite questionImage;
     private List<GameObject> answerButtonGameObjects = new List<GameObject>();
 
 	// Use this for initialization
 	void Start ()
     {
+        questionText.enabled = false;
+        questionTextImage.enabled = false;
+        questionImageDisplay.enabled = false;
         dataController = FindObjectOfType<DataController>();
         currentRoundData = dataController.GetCurrentRoundData();
         questionPool = currentRoundData.questions;
@@ -68,7 +74,22 @@ public class GameController : MonoBehaviour {
     {
         RemoveAnswerButtons();
         QuestionData questionData = questionPool[questionIndex];
-        questionText.text = questionData.questionText;
+        if (questionData.hasImage)
+        {
+            questionText.enabled = false;
+            questionTextImage.enabled = true;
+            questionImageDisplay.enabled = true;
+            questionImage = Resources.Load<Sprite>(questionData.imagePath);
+            questionImageDisplay.sprite = questionImage;
+            questionTextImage.text = questionData.questionText;
+            
+        } else
+        {
+            questionText.enabled = true;
+            questionTextImage.enabled = false;
+            questionImageDisplay.enabled = false;
+            questionText.text = questionData.questionText;
+        }
 
         for (int i=0; i < questionData.answers.Length; i++)
         {
