@@ -148,18 +148,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 776184c49c1a78c4098de862e5076633, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allRoundData:
-  - name: RoundZero
-    timeLimitInSeconds: 30
-    pointsAddedForCorrectAnswer: 10
-    questions:
-    - questionText: 3 + 5
-      answers:
-      - answerText: 8
-        isCorrect: 1
-      - answerText: 5
-        isCorrect: 0
-      - answerText: 4
-        isCorrect: 0
-      - answerText: 2
-        isCorrect: 0

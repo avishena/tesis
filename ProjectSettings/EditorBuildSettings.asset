@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: Assets/Scene/opening.unity
     guid: 1f8a75d3e8c90f84aa57adae6905494e
   - enabled: 1
+    path: Assets/Scene/ChooseSubject.unity
+    guid: 425bbfb430de7cb449ea43c52c972235
+  - enabled: 1
     path: Assets/Scene/level1.unity
     guid: a5a22483f9853264ca9487659eb15951

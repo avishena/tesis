@@ -4,34 +4,11 @@
 	[
 		{
 			"name":"Hitung Bilangan",
+			"subject" : "OperasiHitung",
 			"timeLimitInSeconds":180,
 			"pointsAddedForCorrectAnswer":10,
 			"questions":
 			[
-				{
-					"imagePath":"QuestionImage/BangunDatar1",
-					"questionText":"Luas Bangun di samping adalah ... cm",
-					"hasImage":true,
-					"answers":
-					[
-						{
-							"answerText":"1296",
-							"isCorrect":true
-						},
-						{
-							"answerText":"648",
-							"isCorrect":false
-						},
-						{
-							"answerText":"324",
-							"isCorrect":false
-						},
-						{
-							"answerText":"72",
-							"isCorrect":false
-						}
-					]
-				},
 				{
 					"questionText":"343 + 17 x 5 - 128 = ....",
 					"answers":
