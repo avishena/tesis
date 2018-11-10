@@ -85,6 +85,7 @@
     <Compile Include="Assets\Script\DataController.cs" />
     <Compile Include="Assets\Script\GameController.cs" />
     <Compile Include="Assets\Script\GameData.cs" />
+    <Compile Include="Assets\Script\LevelScreenController.cs" />
     <Compile Include="Assets\Script\MenuScreenController.cs" />
     <Compile Include="Assets\Script\PlayerProgress.cs" />
     <Compile Include="Assets\Script\QuestionData.cs" />

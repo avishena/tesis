@@ -25,7 +25,7 @@ public class GameController : MonoBehaviour {
     public Slider enemyHealth;
     public Slider enemyTime;
 
-    private DataController dataController;
+    private LevelScreenController dataController;
     private RoundData currentRoundData;
     private QuestionData[] questionPool;
 
@@ -44,7 +44,7 @@ public class GameController : MonoBehaviour {
         questionText.enabled = false;
         questionTextImage.enabled = false;
         questionImageDisplay.enabled = false;
-        dataController = FindObjectOfType<DataController>();
+        dataController = FindObjectOfType<LevelScreenController>();
         currentRoundData = dataController.GetCurrentRoundData();
         questionPool = currentRoundData.questions;
 
@@ -152,8 +152,8 @@ public class GameController : MonoBehaviour {
     public void EndRound()
     {
         isRoundActive = false;
-        dataController.SubmitNewPlayerScore(playerScore);
-        highScoreDisplay.text = "High Score: " + dataController.getHighestPlayerScore().ToString();
+        dataController.SubmitNewPlayerScore(playerScore, "highestScore" + currentRoundData.subject);
+        highScoreDisplay.text = "High Score: " + dataController.getHighestPlayerScore("highestScore" + currentRoundData.subject).ToString();
 
         questionDisplay.SetActive(false);
         roundEndDisplay.SetActive(true);

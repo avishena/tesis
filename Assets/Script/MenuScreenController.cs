@@ -7,6 +7,12 @@ public class MenuScreenController : MonoBehaviour {
 
 	public void StartGame()
     {
-        SceneManager.LoadScene("level1");
+        SceneManager.LoadScene("ChooseSubject");
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("level");
+
+        if (objs.Length > 0)
+        {
+            Destroy(objs[0]);
+        }
     }
 }

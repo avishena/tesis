@@ -13,8 +13,8 @@ public class DataController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         DontDestroyOnLoad(gameObject);
-        LoadGameData();
-        LoadPlayerProgress();
+        //LoadGameData();
+        //LoadPlayerProgress();
 
         SceneManager.LoadScene("opening");
 	}
