@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 787, y: 492}
   m_MaxSize: {x: 16012, y: 14042}
   vertical: 0
-  controlID: 7990
+  controlID: 832
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 510, y: 492}
   m_MaxSize: {x: 12010, y: 14042}
   vertical: 1
-  controlID: 7963
+  controlID: 833
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_MinSize: {x: 510, y: 221}
   m_MaxSize: {x: 12010, y: 4021}
   vertical: 0
-  controlID: 7964
+  controlID: 834
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -391,9 +391,9 @@ MonoBehaviour:
     height: 433
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b2270000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: f675fdffc879fdff72b2fdff82e1fdff3610feff8451feff9658feff3e66feffb86dfeff34a8feff72affeff5eb6feffd2cafeffe441ffff14fcffff000000000c2b0000282b00006a2b0000722b0000523c00006e3c0000a23c0000b03c0000b83c0000403d0000fc4200005a430000f24a0000504b0000dc4b0000
+    m_ExpandedIDs: 02f8ffff14fcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - level1
+  - persistent
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -549,7 +549,7 @@ MonoBehaviour:
     - {fileID: 1107829087296438896, guid: 080ba5951d22c1849b2c9560b34e938b, type: 2}
     m_ValueSerializationHelper:
     - {x: 575.19995, y: 180.00002}
-    - {x: 531.4, y: 157.80002}
+    - {x: 218.40001, y: 295.80002}
     - {x: 0, y: 0}
   m_PreviewAnimator: {fileID: 0}
   m_AnimatorController: {fileID: 0}
@@ -602,19 +602,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scene
+    - Assets/Avatar/RPGHeroHP/Animator
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scene
+  - Assets/Avatar/RPGHeroHP/Animator
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Asus\git\quizgame\pratesis
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 321}
-    m_SelectedIDs: 6e280000
-    m_LastClickedID: 10350
-    m_ExpandedIDs: 0000000084260000c8260000d826000012270000262700008c270000f22700002628000036280000a42800009029000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 145}
+    m_SelectedIDs: 76270000
+    m_LastClickedID: 10102
+    m_ExpandedIDs: 0000000078260000bc260000cc260000062700001a27000080270000e82700001c2800002c2800009a2800008629000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -642,7 +642,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000084260000c8260000d826000012270000262700008c270000f22700002628000036280000a42800009029000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000078260000bc260000cc260000062700001a27000080270000e82700001c2800002c2800009a2800008629000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -669,7 +669,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000f026000038270000de2a00000a4f0000ae2a0000362b0000b46c0000066500002c2a0000c83100007e270000a8360000b627000062befeff5e2b0000782b0000342b00006c2b0000422b000014260000de05000000000000b428000020280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
