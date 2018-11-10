@@ -6,6 +6,8 @@ using UnityEngine;
 public class QuestionData {
 
     public string questionText;
+    public string imagePath;
+    public bool hasImage;
     public AnswerData[] answers;
 
 }

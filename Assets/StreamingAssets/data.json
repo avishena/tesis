@@ -3,73 +3,361 @@
 	"allRoundData":
 	[
 		{
-			"name":"Sum",
-			"timeLimitInSeconds":20,
+			"name":"Hitung Bilangan",
+			"timeLimitInSeconds":180,
 			"pointsAddedForCorrectAnswer":10,
 			"questions":
 			[
 				{
-					"questionText":"3 + 5",
+					"imagePath":"QuestionImage/BangunDatar1",
+					"questionText":"Luas Bangun di samping adalah ... cm",
+					"hasImage":true,
 					"answers":
 					[
 						{
-							"answerText":"8",
+							"answerText":"1296",
 							"isCorrect":true
 						},
 						{
-							"answerText":"5",
+							"answerText":"648",
 							"isCorrect":false
 						},
 						{
-							"answerText":"10",
+							"answerText":"324",
 							"isCorrect":false
 						},
 						{
-							"answerText":"4",
+							"answerText":"72",
 							"isCorrect":false
 						}
 					]
 				},
 				{
-					"questionText":"5 + 5",
+					"questionText":"343 + 17 x 5 - 128 = ....",
 					"answers":
 					[
 						{
-							"answerText":"8",
-							"isCorrect":false
-						},
-						{
-							"answerText":"5",
-							"isCorrect":false
-						},
-						{
-							"answerText":"10",
+							"answerText":"300",
 							"isCorrect":true
 						},
 						{
-							"answerText":"4",
+							"answerText":"310",
+							"isCorrect":false
+						},
+						{
+							"answerText":"1.662",
+							"isCorrect":false
+						},
+						{
+							"answerText":"1.672",
 							"isCorrect":false
 						}
 					]
 				},
 				{
-					"questionText":"2 + 5",
+					"questionText":"Sebuah kantong berisi 40 kelereng merah dan 50 kelereng putih. Andi memiliki 5 kantong yang berisi kelereng dengan jumlah yang sama. Jika Andi memberikan 125 kelereng kepada adiknya sisa kelereng Andi adalah ....",
 					"answers":
 					[
 						{
-							"answerText":"8",
+							"answerText":"-30",
 							"isCorrect":false
 						},
 						{
-							"answerText":"5",
+							"answerText":"220",
 							"isCorrect":false
 						},
 						{
-							"answerText":"10",
+							"answerText":"325",
+							"isCorrect":true
+						},
+						{
+							"answerText":"330",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"216 + (-64) x 8 - (-188) = ....",
+					"answers":
+					[
+						{
+							"answerText":"-540",
 							"isCorrect":false
 						},
 						{
-							"answerText":"7",
+							"answerText":"-108",
+							"isCorrect":true
+						},
+						{
+							"answerText":"108",
+							"isCorrect":false
+						},
+						{
+							"answerText":"540",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"20 x (80 : 5) - (16 + 9) = ....",
+					"answers":
+					[
+						{
+							"answerText":"295",
+							"isCorrect":true
+						},
+						{
+							"answerText":"313",
+							"isCorrect":false
+						},
+						{
+							"answerText":"327",
+							"isCorrect":false
+						},
+						{
+							"answerText":"345",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Ani membeli 4 keranjang buah mangga. Tiap keranjang berisi 15 buah. Ternyata setelah dibuka ada 8 buah mangga yang busuk. Kemudian Ani membeli lagi 25 buah mangga. Jadi, buah mangga Ani sekarang ada ... buah",
+					"answers":
+					[
+						{
+							"answerText":"52",
+							"isCorrect":false
+						},
+						{
+							"answerText":"77",
+							"isCorrect":true
+						},
+						{
+							"answerText":"85",
+							"isCorrect":false
+						},
+						{
+							"answerText":"93",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"-40 + [20 x (-12)] : 4 = ....",
+					"answers":
+					[
+						{
+							"answerText":"-180",
+							"isCorrect":false
+						},
+						{
+							"answerText":"-100",
+							"isCorrect":true
+						},
+						{
+							"answerText":"-70",
+							"isCorrect":false
+						},
+						{
+							"answerText":"100",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"2.786 + 390 : 26 = ....",
+					"answers":
+					[
+						{
+							"answerText":"122",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2.801",
+							"isCorrect":true
+						},
+						{
+							"answerText":"3.202",
+							"isCorrect":false
+						},
+						{
+							"answerText":"3.378",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"(-28) - (-74)  + (-27) = ....",
+					"answers":
+					[
+						{
+							"answerText":"-81",
+							"isCorrect":false
+						},
+						{
+							"answerText":"-19",
+							"isCorrect":false
+						},
+						{
+							"answerText":"19",
+							"isCorrect":true
+						},
+						{
+							"answerText":"81",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Di Koperasi Dwija Mulya tersedia 17 karung gula pasir masing – masing berisi 95 kg. Hari ini di Koperasi tersebut menerima kiriman gula seberat 125 kg, berat gula di Koperasi sekarang adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"237",
+							"isCorrect":false
+						},
+						{
+							"answerText":"1.615",
+							"isCorrect":false
+						},
+						{
+							"answerText":"1.740",
+							"isCorrect":true
+						},
+						{
+							"answerText":"2.145",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"128 - 45 : 15 x 15 = ....",
+					"answers":
+					[
+						{
+							"answerText":"84",
+							"isCorrect":false
+						},
+						{
+							"answerText":"83",
+							"isCorrect":true
+						},
+						{
+							"answerText":"205",
+							"isCorrect":false
+						},
+						{
+							"answerText":"96",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Budi mempunyai telur yang disimpan di 5 keranjang. Setiap keranjang berisi 175 telur. Budi membagikan 550 telur kepada saudaranya. Sisa telur Budi adalah ... butir.",
+					"answers":
+					[
+						{
+							"answerText":"325",
+							"isCorrect":true
+						},
+						{
+							"answerText":"225",
+							"isCorrect":false
+						},
+						{
+							"answerText":"425",
+							"isCorrect":false
+						},
+						{
+							"answerText":"375",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"-35 x 5 + (-15) = ....",
+					"answers":
+					[
+						{
+							"answerText":"190",
+							"isCorrect":false
+						},
+						{
+							"answerText":"-190",
+							"isCorrect":true
+						},
+						{
+							"answerText":"-180",
+							"isCorrect":false
+						},
+						{
+							"answerText":"180",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Ibu mencampur tepung ketan 1,25 kg dan tepung terigu 3,8 kg. Setelah dicampur, sebanyak 2,5 digunakan untuk membuat kue. Sisa campuran tepung tersebut ... kg.",
+					"answers":
+					[
+						{
+							"answerText":"2,65",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2,45",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2,55",
+							"isCorrect":true
+						},
+						{
+							"answerText":"2,15",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"94 x 13 - (234 + 748) + 1.349 = ....",
+					"answers":
+					[
+						{
+							"answerText":"1.589",
+							"isCorrect":true
+						},
+						{
+							"answerText":"1.598",
+							"isCorrect":false
+						},
+						{
+							"answerText":"1.478",
+							"isCorrect":false
+						},
+						{
+							"answerText":"1.689",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Bu Ajik mempunyai 18 kantong plastik yang masing-masing berisi 49 buah mangga. Mangga-mangga tersebut dibagikan kepada beberapa anak sama banyak. Jika banyak anak 14 orang setiap anak menerima mangga .... buah.",
+					"answers":
+					[
+						{
+							"answerText":"36",
+							"isCorrect":false
+						},
+						{
+							"answerText":"74",
+							"isCorrect":false
+						},
+						{
+							"answerText":"64",
+							"isCorrect":false
+						},
+						{
+							"answerText":"63",
 							"isCorrect":true
 						}
 					]
