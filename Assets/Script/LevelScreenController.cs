@@ -79,12 +79,12 @@ public class LevelScreenController : MonoBehaviour {
     private void SavePlayerProgress(string subject)
     {
         print("saveHS:" + playerProgress.highestScore);
-        if (subject == "highesScoreOperasiHitung")
+        if (subject == "highestScoreOperasiHitung")
         {
             PlayerPrefs.SetInt(subject, playerProgress.highestScoreOperasiHitung);
         }
 
-        if (subject == "highesScoreBangunDatarDanRuang")
+        if (subject == "highestScoreBangunDatarDanRuang")
         {
             PlayerPrefs.SetInt(subject, playerProgress.highestScoreBangunDatarDanRuang);
         }
