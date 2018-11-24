@@ -14,9 +14,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Question
+  - Character
+  - Answer
   - 
   - 
   - 
@@ -41,4 +41,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Question
+    uniqueID: 1754334535
+    locked: 0
+  - name: Character
+    uniqueID: 4265769389
+    locked: 0
+  - name: Answer
+    uniqueID: 3222841045
     locked: 0

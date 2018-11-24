@@ -3,256 +3,6 @@
 	"allRoundData":
 	[
 		{
-			"name":"Bilangan Berpangkat dan Akar Pangkat",
-			"timeLimitInSeconds":180,
-			"pointsAddedForCorrectAnswer":10,
-			"questions":
-			[
-				{
-					"questionText":"29² - 7² = ....",
-					"answers":
-					[
-						{
-							"answerText":"792",
-							"isCorrect":true
-						},
-						{
-							"answerText":"793",
-							"isCorrect":false
-						},
-						{
-							"answerText":"795",
-							"isCorrect":false
-						},
-						{
-							"answerText":"796",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"16² – 8² = ....",
-					"answers":
-					[
-						{
-							"answerText":"8",
-							"isCorrect":false
-						},
-						{
-							"answerText":"64",
-							"isCorrect":false
-						},
-						{
-							"answerText":"192",
-							"isCorrect":true
-						},
-						{
-							"answerText":"320",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"Hasil penarikan akar pangkat tiga dari bilangan 12.167 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"13",
-							"isCorrect":false
-						},
-						{
-							"answerText":"17",
-							"isCorrect":false
-						},
-						{
-							"answerText":"23",
-							"isCorrect":true
-						},
-						{
-							"answerText":"27",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"21² + 17² = ....",
-					"answers":
-					[
-						{
-							"answerText":"76",
-							"isCorrect":false
-						},
-						{
-							"answerText":"152",
-							"isCorrect":false
-						},
-						{
-							"answerText":"730",
-							"isCorrect":true
-						},
-						{
-							"answerText":"1.444",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"Akar pangkat tiga dari 29.791 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"19",
-							"isCorrect":false
-						},
-						{
-							"answerText":"21",
-							"isCorrect":false
-						},
-						{
-							"answerText":"29",
-							"isCorrect":false
-						},
-						{
-							"answerText":"31",
-							"isCorrect":true
-						}
-					]
-				},
-				{
-					"questionText":"Akar pangkat tiga dari 27.000 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"3",
-							"isCorrect":false
-						},
-						{
-							"answerText":"9",
-							"isCorrect":false
-						},
-						{
-							"answerText":"30",
-							"isCorrect":true
-						},
-						{
-							"answerText":"90",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"55² – 48² = ....",
-					"answers":
-					[
-						{
-							"answerText":"721",
-							"isCorrect":true
-						},
-						{
-							"answerText":"621",
-							"isCorrect":false
-						},
-						{
-							"answerText":"712",
-							"isCorrect":false
-						},
-						{
-							"answerText":"751",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"Akar pangkat tiga dari 24.389 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"31",
-							"isCorrect":false
-						},
-						{
-							"answerText":"19",
-							"isCorrect":false
-						},
-						{
-							"answerText":"29",
-							"isCorrect":true
-						},
-						{
-							"answerText":"31",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"49² – 29² = ....",
-					"answers":
-					[
-						{
-							"answerText":"1.560",
-							"isCorrect":true
-						},
-						{
-							"answerText":"1.460",
-							"isCorrect":false
-						},
-						{
-							"answerText":"1.561",
-							"isCorrect":false
-						},
-						{
-							"answerText":"400",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"Akar pangkat tiga dari 46.656 ditambah dengan akar pangkat tiga dari 21.952 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"61",
-							"isCorrect":false
-						},
-						{
-							"answerText":"62",
-							"isCorrect":false
-						},
-						{
-							"answerText":"63",
-							"isCorrect":false
-						},
-						{
-							"answerText":"64",
-							"isCorrect":true
-						}
-					]
-				},
-				{
-					"questionText":"Akar pangkat tiga dari 5.832 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"42",
-							"isCorrect":false
-						},
-						{
-							"answerText":"28",
-							"isCorrect":false
-						},
-						{
-							"answerText":"38",
-							"isCorrect":false
-						},
-						{
-							"answerText":"18",
-							"isCorrect":true
-						}
-					]
-				}
-			]
-		},
-		{
 			"name":"FPB dan KPK",
 			"timeLimitInSeconds":180,
 			"pointsAddedForCorrectAnswer":10,
@@ -267,15 +17,15 @@
 							"isCorrect":false
 						},
 						{
-							"answerText":"2³ × 3² × 5 × 7",
+							"answerText":"2&sup3 × 3&sup2 × 5 × 7",
 							"isCorrect":true
 						},
 						{
-							"answerText":"2³ × 3 × 5² × 7",
+							"answerText":"2&sup3 × 3 × 5&sup2 × 7",
 							"isCorrect":false
 						},
 						{
-							"answerText":"2² × 3³ × 5 × 7",
+							"answerText":"2&sup2 × 3&sup3 × 5 × 7",
 							"isCorrect":false
 						}
 					]
@@ -351,19 +101,19 @@
 					"answers":
 					[
 						{
-							"answerText":"2²",
+							"answerText":"2&sup2",
 							"isCorrect":false
 						},
 						{
-							"answerText":"2² × 3²",
+							"answerText":"2&sup2 × 3&sup2",
 							"isCorrect":false
 						},
 						{
-							"answerText":"2² × 7",
+							"answerText":"2&sup2 × 7",
 							"isCorrect":false
 						},
 						{
-							"answerText":"2² × 3² x 7",
+							"answerText":"2&sup2 × 3&sup2 x 7",
 							"isCorrect":true
 						}
 					]
@@ -395,19 +145,19 @@
 					"answers":
 					[
 						{
-							"answerText":"2² × 5",
+							"answerText":"2&sup2 × 5",
 							"isCorrect":true
 						},
 						{
-							"answerText":"2² × 3 x 5",
+							"answerText":"2&sup2 × 3 x 5",
 							"isCorrect":false
 						},
 						{
-							"answerText":"2² × 7",
+							"answerText":"2&sup2 × 7",
 							"isCorrect":false
 						},
 						{
-							"answerText":"2² × 3 x 5 x 7",
+							"answerText":"2&sup2 × 3 x 5 x 7",
 							"isCorrect":false
 						}
 					]
@@ -505,11 +255,11 @@
 					"answers":
 					[
 						{
-							"answerText":"2 x 3² × 5 x 7",
+							"answerText":"2 x 3&sup2 × 5 x 7",
 							"isCorrect":true
 						},
 						{
-							"answerText":"3² × 5 x 7",
+							"answerText":"3&sup2 × 5 x 7",
 							"isCorrect":false
 						},
 						{
@@ -517,7 +267,7 @@
 							"isCorrect":false
 						},
 						{
-							"answerText":"2 x 3² × 5 x 7",
+							"answerText":"2 x 3&sup2 × 5 x 7",
 							"isCorrect":false
 						}
 					]
@@ -553,7 +303,7 @@
 							"isCorrect":true
 						},
 						{
-							"answerText":"3² x 7",
+							"answerText":"3&sup2 x 7",
 							"isCorrect":false
 						},
 						{
@@ -561,7 +311,7 @@
 							"isCorrect":false
 						},
 						{
-							"answerText":"3 x 5² × 7",
+							"answerText":"3 x 5&sup2 × 7",
 							"isCorrect":false
 						}
 					]
@@ -589,7 +339,6 @@
 					]
 				}
 			]
-		},
-		
+		}
 	]
 }
