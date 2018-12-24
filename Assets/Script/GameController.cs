@@ -349,7 +349,7 @@ public class GameController : MonoBehaviour {
         }
         else
         {
-            timeRemaining = Mathf.RoundToInt(Mathf.Round(currentRoundData.timeLimitInSeconds) - adj);
+            timeRemaining = Mathf.RoundToInt(Mathf.Round(timeRemainingStart) - adj);
             timeRemainingStart = timeRemaining;
             UpdateTimeRemainingDisplay(timeRemaining);
         }
