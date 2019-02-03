@@ -37,8 +37,22 @@ public class DataController : MonoBehaviour {
     {
         return playerProgress.highestScore;
     }
-	
-	private void LoadPlayerProgress()
+
+    public void SubmitNewPlayerTime(int newTime)
+    {
+        if (newTime < playerProgress.bestTime)
+        {
+            playerProgress.bestTime = newTime;
+            SavePlayerProgress();
+        }
+    }
+
+    public int getBestPlayerTime()
+    {
+        return playerProgress.bestTime;
+    }
+
+    private void LoadPlayerProgress()
     {
         playerProgress = new PlayerProgress();
 
@@ -46,11 +60,17 @@ public class DataController : MonoBehaviour {
         {
             playerProgress.highestScore = PlayerPrefs.GetInt("highestScore");
         }
+
+        if (PlayerPrefs.HasKey("bestTime"))
+        {
+            playerProgress.bestTime = PlayerPrefs.GetInt("bestTime");
+        }
     }
 
     private void SavePlayerProgress()
     {
         PlayerPrefs.SetInt("highestScore", playerProgress.highestScore);
+        PlayerPrefs.SetInt("bestTime", playerProgress.bestTime);
     }
 
     private void LoadGameData()

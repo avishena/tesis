@@ -8,6 +8,7 @@ public class QuestionData {
     public string questionText;
     public string imagePath;
     public bool hasImage;
+    public bool diagram;
     public AnswerData[] answers;
 
 }

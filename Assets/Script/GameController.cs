@@ -8,9 +8,11 @@ public class GameController : MonoBehaviour {
 
     public Text questionText;
     public Text questionTextImage;
+    public Text questionTextImageDiagram;
     public Text scoreDisplayText;
     public Text timeRemainingDisplayText;
     public Image questionImageDisplay;
+    public Image questionImageDiagramDisplay;
     public SimpleObjectPool answerButtonObjectPool;
     public Transform answerButtonParent;
 
@@ -18,6 +20,8 @@ public class GameController : MonoBehaviour {
     public GameObject roundEndDisplay;
     public Text highScoreDisplay;
     public Text playerScoreDisplay;
+    public Text bestTimeDisplay;
+    public Text playerTimeDisplay;
 
     public Animator playerAnimator;
     public Animator enemyAnimator;
@@ -48,6 +52,7 @@ public class GameController : MonoBehaviour {
     private int questionIndex;
     private int playerScore;
     private int playerScoreNow;
+    private int playerTime;
     private int attackValue;
     private int attackValueNow;
     private Sprite questionImage;
@@ -60,9 +65,9 @@ public class GameController : MonoBehaviour {
     private float scoreMax = 100f;
     private float healthMax = 100f;
     private float powerMax = 10f;
-    private float actionMax = 180f;
-    private float speedMax = 180f;
-    private float scoreMin = 63.67f;
+    private float actionMax = 210f;
+    private float speedMax = 210f;
+    private float scoreMin = 56f;
     private float healthMin = 0f;
     private float actionMin = 0f;
     private float powerMin = 0f;
@@ -103,6 +108,7 @@ public class GameController : MonoBehaviour {
         UpdateEnemyHealthDisplay();
 
         playerScore = 0;
+        playerTime = 0;
         playerScoreNow = 0;
         questionIndex = 0;
         playerSpeed = 0f;
@@ -117,18 +123,35 @@ public class GameController : MonoBehaviour {
         QuestionData questionData = questionPool[questionIndex];
         if (questionData.hasImage)
         {
-            questionText.enabled = false;
-            questionTextImage.enabled = true;
-            questionImageDisplay.enabled = true;
-            questionImage = Resources.Load<Sprite>(questionData.imagePath);
-            questionImageDisplay.sprite = questionImage;
-            questionTextImage.text = questionData.questionText;
+            if (questionData.diagram)
+            {
+                questionText.enabled = false;
+                questionTextImage.enabled = false;
+                questionImageDisplay.enabled = false;
+                questionTextImageDiagram.enabled = true;
+                questionImageDiagramDisplay.enabled = true;
+                questionImage = Resources.Load<Sprite>(questionData.imagePath);
+                questionImageDiagramDisplay.sprite = questionImage;
+                questionTextImageDiagram.text = questionData.questionText;
+            } else
+            {
+                questionText.enabled = false;
+                questionTextImageDiagram.enabled = false;
+                questionImageDiagramDisplay.enabled = false;
+                questionTextImage.enabled = true;
+                questionImageDisplay.enabled = true;
+                questionImage = Resources.Load<Sprite>(questionData.imagePath);
+                questionImageDisplay.sprite = questionImage;
+                questionTextImage.text = questionData.questionText;
+            }
             
         } else
         {
             questionText.enabled = true;
             questionTextImage.enabled = false;
             questionImageDisplay.enabled = false;
+            questionTextImageDiagram.enabled = false;
+            questionImageDiagramDisplay.enabled = false;
             questionText.text = questionData.questionText;
         }
 
@@ -158,6 +181,7 @@ public class GameController : MonoBehaviour {
         if (isCorrect)
         {
             playerSpeed = timeRemainingStart - timeRemaining;
+            playerTime += Mathf.RoundToInt(playerSpeed);
             playerAttackStat = true;
             playerAnimator.SetTrigger("attack");
             source.PlayOneShot(attackSound, 1f);
@@ -173,6 +197,7 @@ public class GameController : MonoBehaviour {
         } else
         {
             playerSpeed = timeRemainingStart;
+            playerTime += Mathf.RoundToInt(timeRemainingStart - timeRemaining);
             enemyAttackStat = true;
             enemyAnimator.SetTrigger("attack");
             source.PlayOneShot(dragonSound, 1f);
@@ -214,8 +239,11 @@ public class GameController : MonoBehaviour {
     {
         isRoundActive = false;
         playerScoreDisplay.text = "" + playerScore;
+        playerTimeDisplay.text = "" + playerTime;
         dataController.SubmitNewPlayerScore(playerScore, "highestScore" + currentRoundData.subject);
+        dataController.SubmitNewPlayerTime(playerTime, "bestTime" + currentRoundData.subject);
         highScoreDisplay.text = "" + dataController.getHighestPlayerScore("highestScore" + currentRoundData.subject).ToString();
+        bestTimeDisplay.text = "" + dataController.getBestPlayerTime("bestTime" + currentRoundData.subject).ToString();
 
         questionDisplay.SetActive(false);
         roundEndDisplay.SetActive(true);

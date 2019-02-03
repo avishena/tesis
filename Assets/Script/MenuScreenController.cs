@@ -15,4 +15,9 @@ public class MenuScreenController : MonoBehaviour {
             Destroy(objs[0]);
         }
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

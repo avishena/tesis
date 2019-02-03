@@ -10,4 +10,10 @@ public class PlayerProgress{
     public int highestScoreBangunDatarDanRuang = 0;
     public int highestScoreDiagram = 0;
     public int highestScore = 0;
+    public int bestTimeOperasiHitung = 180;
+    public int bestTimeBilanganPangkatDanAkar = 180;
+    public int bestTimeFPBDanKPK = 180;
+    public int bestTimeBangunDatarDanRuang = 180;
+    public int bestTimeDiagram = 180;
+    public int bestTime = 180;
 }

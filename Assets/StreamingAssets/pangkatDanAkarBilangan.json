@@ -4,6 +4,7 @@
 	[
 		{
 			"name":"Bilangan Berpangkat dan Akar Pangkat",
+			"subject" : "BilanganPangkatDanAkar",
 			"timeLimitInSeconds":180,
 			"pointsAddedForCorrectAnswer":10,
 			"questions":
@@ -224,28 +225,6 @@
 						},
 						{
 							"answerText":"64",
-							"isCorrect":true
-						}
-					]
-				},
-				{
-					"questionText":"Akar pangkat tiga dari 5.832 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"42",
-							"isCorrect":false
-						},
-						{
-							"answerText":"28",
-							"isCorrect":false
-						},
-						{
-							"answerText":"38",
-							"isCorrect":false
-						},
-						{
-							"answerText":"18",
 							"isCorrect":true
 						}
 					]

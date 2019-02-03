@@ -4,6 +4,7 @@
 	[
 		{
 			"name":"FPB dan KPK",
+			"subject" : "FPBDanKPK",
 			"timeLimitInSeconds":180,
 			"pointsAddedForCorrectAnswer":10,
 			"questions":
@@ -40,11 +41,11 @@
 						},
 						{
 							"answerText":"8",
-							"isCorrect":false
+							"isCorrect":true
 						},
 						{
 							"answerText":"9",
-							"isCorrect":true
+							"isCorrect":false
 						},
 						{
 							"answerText":"11",
@@ -53,7 +54,7 @@
 					]
 				},
 				{
-					"questionText":"Di sebuah terminal tersedia buah bus dengan 3 jurusan yang berbeda. Bus jurusan kota A berangkat setiap 45 menit, bus dengan tujuan kota B berangkat setiap 60 menit,sedangkan bus dengan tujuan kota C berangkat setiap 1,5 jam. Jika ketiga bus tersebut berangkat bersama pada pukul 07.00, maka ketiga bus tersebut akan berangkat bersamaan lagi pada pukul ....",
+					"questionText":"Di sebuah terminal tersedia 3 buah bus. Bus A berangkat setiap 45 menit, bus B setiap 60 menit,sedangkan bus C setiap 1,5 jam. Jika ketiga bus berangkat bersama pada pukul 07.00, maka ketiga bus akan berangkat bersamaan lagi pada pukul ....",
 					"answers":
 					[
 						{
@@ -75,7 +76,7 @@
 					]
 				},
 				{
-					"questionText":"Toko Pak Danu mempunyai persediaan 32 bola lampu merah, 72 bola lampu hijau dan 48 bola lampu kuning, semua bola lampu tersebut dimasukkan ke dalam beberapa kotak dengan jumlah sama banyak untuk setiap warnanya. Banyak bola lampu warna kuning pada setiap kotak adalah ....",
+					"questionText":"Terdapat 32 bola lampu merah, 72 bola lampu hijau dan 48 bola lampu kuning, semua bola lampu tersebut dimasukkan ke dalam beberapa kotak dengan jumlah sama untuk setiap warnanya. Banyak bola lampu warna kuning pada setiap kotak adalah ....",
 					"answers":
 					[
 						{
@@ -220,116 +221,6 @@
 						},
 						{
 							"answerText":"16",
-							"isCorrect":false
-						},
-						{
-							"answerText":"18",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"Ibu Aan berbelanja ke pasar setiap 2 hari sekali, Ibu Aminah setiap 3 hari sekali, dan Ibu Hasan setiap 4 hari sekali. Jika mereka berbelanja untuk pertama kalinya pada tanggal 2 Maret, maka mereka akan berbelanja bersama-sama lagi untuk yang kedua kalinya pada tanggal ....",
-					"answers":
-					[
-						{
-							"answerText":"4 Maret",
-							"isCorrect":false
-						},
-						{
-							"answerText":"8 Maret",
-							"isCorrect":false
-						},
-						{
-							"answerText":"12 Maret",
-							"isCorrect":false
-						},
-						{
-							"answerText":"14 Maret",
-							"isCorrect":true
-						}
-					]
-				},
-				{
-					"questionText":"Faktor persekutuan terbesar (FPB) dalam bentuk faktorisasi dari 630 dan 945 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"2 x 3² × 5 x 7",
-							"isCorrect":true
-						},
-						{
-							"answerText":"3² × 5 x 7",
-							"isCorrect":false
-						},
-						{
-							"answerText":"2 x 5 × 7",
-							"isCorrect":false
-						},
-						{
-							"answerText":"2 x 3² × 5 x 7",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"Faktor persekutuan terbesar (FPB) dari 39, 52 dan 78 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"2",
-							"isCorrect":false
-						},
-						{
-							"answerText":"3",
-							"isCorrect":false
-						},
-						{
-							"answerText":"13",
-							"isCorrect":true
-						},
-						{
-							"answerText":"15",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"KPK dari 15 dan 35 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"3 × 5 x 7",
-							"isCorrect":true
-						},
-						{
-							"answerText":"3² x 7",
-							"isCorrect":false
-						},
-						{
-							"answerText":"3 x 5",
-							"isCorrect":false
-						},
-						{
-							"answerText":"3 x 5² × 7",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"Dua buah lampu dinyalakan bersama-sama, lampu kuning menyala setiap 15 detik dan lampu merah menyala setiap dua belas detik. Kedua lampu akan menyala bersama-sama pada detik ke ....",
-					"answers":
-					[
-						{
-							"answerText":"75",
-							"isCorrect":false
-						},
-						{
-							"answerText":"60",
-							"isCorrect":true
-						},
-						{
-							"answerText":"24",
 							"isCorrect":false
 						},
 						{

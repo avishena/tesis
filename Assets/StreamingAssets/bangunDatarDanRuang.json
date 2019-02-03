@@ -54,18 +54,18 @@
 					]
 				},
 				{
-					"imagePath":"QuestionImage/BangunDatar1",
+					"imagePath":"QuestionImage/BangunDatar2",
 					"questionText":"Luas Bangun di samping adalah ... cm",
 					"hasImage":true,
 					"answers":
 					[
 						{
 							"answerText":"1296",
-							"isCorrect":true
+							"isCorrect":false
 						},
 						{
 							"answerText":"648",
-							"isCorrect":false
+							"isCorrect":true
 						},
 						{
 							"answerText":"324",
@@ -205,6 +205,30 @@
 						},
 						{
 							"answerText":"750",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"imagePath":"QuestionImage/BangunDatar2",
+					"questionText":"Luas Bangun di samping adalah ... cm",
+					"hasImage":true,
+					"answers":
+					[
+						{
+							"answerText":"180",
+							"isCorrect":false
+						},
+						{
+							"answerText":"240",
+							"isCorrect":true
+						},
+						{
+							"answerText":"300",
+							"isCorrect":false
+						},
+						{
+							"answerText":"480",
 							"isCorrect":false
 						}
 					]
