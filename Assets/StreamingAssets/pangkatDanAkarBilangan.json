@@ -10,221 +10,221 @@
 			"questions":
 			[
 				{
-					"questionText":"29² - 7² = ....",
+					"questionText":"Jarak kota A dan kota B adalah 1,5 km. Pada peta jarak kota A dan B adalah 3 cm. Jadi skala peta tersebut adalah ....",
 					"answers":
 					[
 						{
-							"answerText":"792",
-							"isCorrect":true
-						},
-						{
-							"answerText":"793",
+							"answerText":"1 : 50",
 							"isCorrect":false
 						},
 						{
-							"answerText":"795",
+							"answerText":"1 : 500",
 							"isCorrect":false
 						},
 						{
-							"answerText":"796",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"16² – 8² = ....",
-					"answers":
-					[
-						{
-							"answerText":"8",
+							"answerText":"1 : 5.000",
 							"isCorrect":false
 						},
 						{
-							"answerText":"64",
-							"isCorrect":false
-						},
-						{
-							"answerText":"192",
-							"isCorrect":true
-						},
-						{
-							"answerText":"320",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"Hasil penarikan akar pangkat tiga dari bilangan 12.167 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"13",
-							"isCorrect":false
-						},
-						{
-							"answerText":"17",
-							"isCorrect":false
-						},
-						{
-							"answerText":"23",
-							"isCorrect":true
-						},
-						{
-							"answerText":"27",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"21² + 17² = ....",
-					"answers":
-					[
-						{
-							"answerText":"76",
-							"isCorrect":false
-						},
-						{
-							"answerText":"152",
-							"isCorrect":false
-						},
-						{
-							"answerText":"730",
-							"isCorrect":true
-						},
-						{
-							"answerText":"1.444",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"Akar pangkat tiga dari 29.791 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"19",
-							"isCorrect":false
-						},
-						{
-							"answerText":"21",
-							"isCorrect":false
-						},
-						{
-							"answerText":"29",
-							"isCorrect":false
-						},
-						{
-							"answerText":"31",
+							"answerText":"1 : 50.000",
 							"isCorrect":true
 						}
 					]
 				},
 				{
-					"questionText":"Akar pangkat tiga dari 27.000 adalah ....",
+					"questionText":"Jarak kota P  dan Q pada peta 6 cm. Skala peta 1 : 3.500.000. Jarak kota P dan Q yang  sebenarnya adalah ....",
 					"answers":
 					[
 						{
-							"answerText":"3",
-							"isCorrect":false
-						},
-						{
-							"answerText":"9",
-							"isCorrect":false
-						},
-						{
-							"answerText":"30",
+							"answerText":"210 km",
 							"isCorrect":true
 						},
 						{
-							"answerText":"90",
+							"answerText":"250 km",
+							"isCorrect":false
+						},
+						{
+							"answerText":"270 km",
+							"isCorrect":false
+						},
+						{
+							"answerText":"300 km",
 							"isCorrect":false
 						}
 					]
 				},
 				{
-					"questionText":"55² – 48² = ....",
+					"questionText":" Jarak antara dua kota pada peta adalah 8 cm. Jika skala yang digunakan  peta tersebut adalah 1 : 200.000, maka jarak dua kota  yang sebenarnya  adalah ....",
 					"answers":
 					[
 						{
-							"answerText":"721",
+							"answerText":"1.600.000 m",
+							"isCorrect":false
+						},
+						{
+							"answerText":"16 km",
 							"isCorrect":true
 						},
 						{
-							"answerText":"621",
+							"answerText":"160 km",
 							"isCorrect":false
 						},
 						{
-							"answerText":"712",
-							"isCorrect":false
-						},
-						{
-							"answerText":"751",
+							"answerText":"1.600 cm",
 							"isCorrect":false
 						}
 					]
 				},
 				{
-					"questionText":"Akar pangkat tiga dari 24.389 adalah ....",
+					"questionText":"Diketahui skala 1 : 300.000 dan jarak pada peta 8 cm, maka jarak sebenarnya adalah ...",
 					"answers":
 					[
 						{
-							"answerText":"31",
+							"answerText":"0,24 km",
 							"isCorrect":false
 						},
 						{
-							"answerText":"19",
+							"answerText":"2,4 km",
 							"isCorrect":false
 						},
 						{
-							"answerText":"29",
+							"answerText":"24 km",
 							"isCorrect":true
 						},
 						{
-							"answerText":"31",
+							"answerText":"240 km",
 							"isCorrect":false
 						}
 					]
 				},
 				{
-					"questionText":"49² – 29² = ....",
+					"questionText":"Diketahui skala suatu peta adakah 1 : 250.000. Jika dari kota P ke kota Q pada peta tersebut adalah 12 cm, jarak yang sebenarnya antara kedua kota adalah ....",
 					"answers":
 					[
 						{
-							"answerText":"1.560",
+							"answerText":"25 km",
+							"isCorrect":false
+						},
+						{
+							"answerText":"30 km",
 							"isCorrect":true
 						},
 						{
-							"answerText":"1.460",
+							"answerText":"35 km",
 							"isCorrect":false
 						},
 						{
-							"answerText":"1.561",
-							"isCorrect":false
-						},
-						{
-							"answerText":"400",
+							"answerText":"40 km",
 							"isCorrect":false
 						}
 					]
 				},
 				{
-					"questionText":"Akar pangkat tiga dari 46.656 ditambah dengan akar pangkat tiga dari 21.952 adalah ....",
+					"questionText":"Jarak sebenarnya adalah 265 km. Jarak pada peta jika menggunakan skala 1 : 1000.000 adalah ....",
 					"answers":
 					[
 						{
-							"answerText":"61",
+							"answerText":"0,265 cm",
 							"isCorrect":false
 						},
 						{
-							"answerText":"62",
+							"answerText":"2,65 cm",
 							"isCorrect":false
 						},
 						{
-							"answerText":"63",
+							"answerText":"26,5 cm",
+							"isCorrect":true
+						},
+						{
+							"answerText":"265 cm",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Pulau A dan pulau B jaraknya 320 km. Jarak tersebut akan digambar dengan ukuran 8 cm pada sebuah buku gambar. Skala yang digunakan adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"1 : 4.000",
 							"isCorrect":false
 						},
 						{
-							"answerText":"64",
+							"answerText":"1 : 40.000",
+							"isCorrect":false
+						},
+						{
+							"answerText":"1 : 400.000",
+							"isCorrect":false
+						},
+						{
+							"answerText":"1 : 4.000.000",
+							"isCorrect":true
+						}
+					]
+				},
+				{
+					"questionText":"Diketahui skala sebuah ukuran gambar adalah 1 : 400.000. Jika ukuran pada peta 8 cm, maka ukuran sebenarnya adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"3,2 km",
+							"isCorrect":false
+						},
+						{
+							"answerText":"32 km",
+							"isCorrect":true
+						},
+						{
+							"answerText":"320 km",
+							"isCorrect":false
+						},
+						{
+							"answerText":"50 km",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Skala 1 : 2.750.000. Jarak pada peta dari kota A - B adalah 20 cm. Panjang jarak kota A - B sebenarnya adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"550 km",
+							"isCorrect":true
+						},
+						{
+							"answerText":"600 km",
+							"isCorrect":false
+						},
+						{
+							"answerText":"55 km",
+							"isCorrect":false
+						},
+						{
+							"answerText":"650 km",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Sebuah papan reklame berbentuk segitiga sama sisi dengan panjang sisinya 5 cm digambar pada selembar kertas. Skala yang digunakan 1 : 50. Panjang keliling sebenarnya papan reklame tersebut adalah ....",
+					"answers":
+					[
+						{
+							"answerText":"2,5 m",
+							"isCorrect":false
+						},
+						{
+							"answerText":"4,5 m",
+							"isCorrect":false
+						},
+						{
+							"answerText":"7 m",
+							"isCorrect":false
+						},
+						{
+							"answerText":"7,5 m",
 							"isCorrect":true
 						}
 					]

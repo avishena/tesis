@@ -1030,6 +1030,8 @@ MonoBehaviour:
   rightHookSound: {fileID: 8300000, guid: 5d9324b2c081d1f479cfab740f85e6ae, type: 3}
   leftHookSound: {fileID: 8300000, guid: 7b079d9d621cafb48b0d694df25be948, type: 3}
   clickSound: {fileID: 8300000, guid: 14917f1b844aa5b4db8cc5c5ef2c35c0, type: 3}
+  loseSound: {fileID: 8300000, guid: 82a8aeacc6779aa46ba3509eec7d9266, type: 3}
+  winSound: {fileID: 8300000, guid: 8b31e7dab83f29445aff0df369e4f44c, type: 3}
 --- !u!82 &324651077
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1040,7 +1042,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bc8ad15e574c6334e81563fac61dfee9, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1

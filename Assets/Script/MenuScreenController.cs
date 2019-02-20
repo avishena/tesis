@@ -5,7 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class MenuScreenController : MonoBehaviour {
 
-	public void StartGame()
+    public AudioClip clickSound;
+    public AudioClip openingSound;
+    private AudioSource source;
+
+    private void Awake()
+    {
+        source = GetComponent<AudioSource>();
+    }
+
+    void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+        source.clip = openingSound;
+        source.Play();
+    }
+
+    public void LoadGame()
+    {
+        source.PlayOneShot(clickSound, 1f);
+        StartGame();
+    }
+
+    public void StartGame()
     {
         SceneManager.LoadScene("ChooseSubject");
         GameObject[] objs = GameObject.FindGameObjectsWithTag("level");
@@ -18,6 +40,7 @@ public class MenuScreenController : MonoBehaviour {
 
     public void QuitGame()
     {
+        source.PlayOneShot(clickSound, 1f);
         Application.Quit();
     }
 }

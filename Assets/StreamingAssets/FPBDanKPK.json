@@ -10,221 +10,221 @@
 			"questions":
 			[
 				{
-					"questionText":"Kelipatan persekutuan terkecil dari 90 dan 168 adalah ....",
+					"questionText":"Pesawat terbang mampu menempuh jarak 600 km dalam waktu 45 menit. Kecepatan rata-rata pesawat tersebut adalah ....",
 					"answers":
 					[
 						{
-							"answerText":"2 x 3 x 3 x 7",
+							"answerText":"700 km/jam",
 							"isCorrect":false
 						},
 						{
-							"answerText":"2³ × 3² × 5 × 7",
+							"answerText":"750 km/jam",
+							"isCorrect":false
+						},
+						{
+							"answerText":"800 km/jam",
 							"isCorrect":true
 						},
 						{
-							"answerText":"2³ × 3 × 5² × 7",
-							"isCorrect":false
-						},
-						{
-							"answerText":"2² × 3³ × 5 × 7",
+							"answerText":"850 km/jam",
 							"isCorrect":false
 						}
 					]
 				},
 				{
-					"questionText":"FPB dari bilangan 48, 56 dan 72 adalah ....",
+					"questionText":"Sebuah bus berangkat dari kota A pukul 08.15, dengan kecepatan rata-rata 45 km per jam. Bus itu sampai di kota B pukul 10.35. Jarak kota A dan B = ... km.",
 					"answers":
 					[
 						{
-							"answerText":"87",
+							"answerText":"100",
 							"isCorrect":false
 						},
 						{
-							"answerText":"8",
+							"answerText":"105",
 							"isCorrect":true
 						},
 						{
-							"answerText":"9",
+							"answerText":"110",
 							"isCorrect":false
 						},
 						{
-							"answerText":"11",
+							"answerText":"115",
 							"isCorrect":false
 						}
 					]
 				},
 				{
-					"questionText":"Di sebuah terminal tersedia 3 buah bus. Bus A berangkat setiap 45 menit, bus B setiap 60 menit,sedangkan bus C setiap 1,5 jam. Jika ketiga bus berangkat bersama pada pukul 07.00, maka ketiga bus akan berangkat bersamaan lagi pada pukul ....",
+					"questionText":"54 km/jam + 12 m/detik = ... m/detik",
 					"answers":
 					[
 						{
-							"answerText":"07.15",
+							"answerText":"12,9",
 							"isCorrect":false
 						},
 						{
-							"answerText":"08.20",
-							"isCorrect":false
-						},
-						{
-							"answerText":"10.00",
+							"answerText":"15",
 							"isCorrect":true
 						},
 						{
-							"answerText":"17.00",
+							"answerText":"21",
+							"isCorrect":false
+						},
+						{
+							"answerText":"27",
 							"isCorrect":false
 						}
 					]
 				},
 				{
-					"questionText":"Terdapat 32 bola lampu merah, 72 bola lampu hijau dan 48 bola lampu kuning, semua bola lampu tersebut dimasukkan ke dalam beberapa kotak dengan jumlah sama untuk setiap warnanya. Banyak bola lampu warna kuning pada setiap kotak adalah ....",
+					"questionText":"Jarak rumah Pak Ridwan dan kantornya adalah  28 km. Pak Ridwan berangkat pukul 07.00 ke kantornya dengan sepeda motor yang kecepatannya  40 km/jam. Pukul berapa Pak Ridwan tiba di kantor?",
 					"answers":
 					[
 						{
-							"answerText":"5 buah",
+							"answerText":"07.35",
 							"isCorrect":false
 						},
 						{
-							"answerText":"6 buah",
+							"answerText":"07.42",
 							"isCorrect":true
 						},
 						{
-							"answerText":"8 buah",
+							"answerText":"07.56",
 							"isCorrect":false
 						},
 						{
-							"answerText":"9 buah",
+							"answerText":"08.12",
 							"isCorrect":false
 						}
 					]
 				},
 				{
-					"questionText":"KPK dari 28 dan 36 adalah ....",
+					"questionText":"Sebuah bus berangkat dari kota  P pukul 08.25, dengan kecepatan rata-rata 45 km per jam. Bus itu sampai di kota Q pukul 10.45. Jarak kota P dan Q = ... km.",
 					"answers":
 					[
-						{
-							"answerText":"2²",
-							"isCorrect":false
-						},
-						{
-							"answerText":"2² × 3²",
-							"isCorrect":false
-						},
-						{
-							"answerText":"2² × 7",
-							"isCorrect":false
-						},
-						{
-							"answerText":"2² × 3² x 7",
-							"isCorrect":true
-						}
-					]
-				},
-				{
-					"questionText":"FPB dari 18, 36 dan 45 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"9",
-							"isCorrect":true
-						},
-						{
-							"answerText":"18",
-							"isCorrect":false
-						},
-						{
-							"answerText":"36",
-							"isCorrect":false
-						},
-						{
-							"answerText":"180",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"Faktor persekutuan terbesar (FPB) dalam bentuk Faktorisasi dari 60 dan 40 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"2² × 5",
-							"isCorrect":true
-						},
-						{
-							"answerText":"2² × 3 x 5",
-							"isCorrect":false
-						},
-						{
-							"answerText":"2² × 7",
-							"isCorrect":false
-						},
-						{
-							"answerText":"2² × 3 x 5 x 7",
-							"isCorrect":false
-						}
-					]
-				},
-				{
-					"questionText":"Jumlah dari semua nilai KPK dari 60, 36, dan 80 adalah ....",
-					"answers":
-					[
-						{
-							"answerText":"30",
-							"isCorrect":true
-						},
-						{
-							"answerText":"45",
-							"isCorrect":false
-						},
 						{
 							"answerText":"90",
 							"isCorrect":false
 						},
 						{
-							"answerText":"180",
+							"answerText":"105",
+							"isCorrect":true
+						},
+						{
+							"answerText":"120",
+							"isCorrect":false
+						},
+						{
+							"answerText":"125",
 							"isCorrect":false
 						}
 					]
 				},
 				{
-					"questionText":"Mia berenang setiap 5 hari sekali, Tiyas berenang setiap 6 hari sekali dan Salsabila 10 hari sekali. Bila mereka berenang bersama pada tanggal 24 Januari 2013, maka ketiga anak tersebut akan berenang secara bersama berikutnya pada tanggal ....",
+					"questionText":"Pesawat terbang mampu menempuh jarak 750 km dalam waktu 50 menit. Kecepatan rata-rata pesawat tersebut adalah .... ",
 					"answers":
 					[
 						{
-							"answerText":"29 Januari 2013",
+							"answerText":"625 km/jam",
 							"isCorrect":false
 						},
 						{
-							"answerText":"30 Januari 2013",
+							"answerText":"750 km/jam",
 							"isCorrect":false
 						},
 						{
-							"answerText":"23 Februari 2013",
+							"answerText":"800 km/jam",
 							"isCorrect":true
 						},
 						{
-							"answerText":"24 Februari 2013",
+							"answerText":"900 km/jam",
 							"isCorrect":false
 						}
 					]
 				},
 				{
-					"questionText":"Agus mempunyai 12 kelereng merah, 16 kelereng hitam, dan 20 kelereng biru. Kelereng – kelereng tersebut akan dimasukkan ke dalam beberapa kotak, setiap jenis kelereng yang terdapat dalam kotak sama banyak. Agus memerlukan kotak sebanyak ....",
+					"questionText":"Kereta api Siemens Velaro mampu melesat dengan kecepatan maksimum 350 km/jam. Jika kereta api Siemens Velaro dioperasikan di Indonesia, maka kota Jakarta dan Banyuwangi yang berjarak 1.120 km dapat ditempuh dalam waktu ...",
 					"answers":
 					[
 						{
-							"answerText":"4",
+							"answerText":"3 jam 10 menit",
+							"isCorrect":false
+						},
+						{
+							"answerText":"3 jam 12 menit",
 							"isCorrect":true
 						},
 						{
-							"answerText":"6",
+							"answerText":"3 jam 15 menit",
 							"isCorrect":false
 						},
 						{
-							"answerText":"16",
+							"answerText":"3 jam 20 menit",
 							"isCorrect":false
-						},
+						}
+					]
+				},
+				{
+					"questionText":"Budi bersepeda selama 1 1/2 jam dengan kecepatan rata-rata 15 km/jam. Jarak yang telah ditempuh Budi adalah .... km.",
+					"answers":
+					[
 						{
 							"answerText":"18",
+							"isCorrect":false
+						},
+						{
+							"answerText":"20",
+							"isCorrect":false
+						},
+						{
+							"answerText":"22",
+							"isCorrect":false
+						},
+						{
+							"answerText":"22,5",
+							"isCorrect":true
+						}
+					]
+				},
+				{
+					"questionText":"Jarak rumah Reno ke rumah nenek 60 km. Jarak tersebut dapat ditempuh oleh Reno selama 2 1/2 jam. Kecepatan Reno dalam bersepeda adalah ...",
+					"answers":
+					[
+						{
+							"answerText":"20",
+							"isCorrect":false
+						},
+						{
+							"answerText":"22",
+							"isCorrect":false
+						},
+						{
+							"answerText":"24",
+							"isCorrect":true
+						},
+						{
+							"answerText":"30",
+							"isCorrect":false
+						}
+					]
+				},
+				{
+					"questionText":"Andi berlari menempuh jarak 7 km dalam waktu 30 menit. Kecepatan rata-rata Andi berlari adalah...km/jam.",
+					"answers":
+					[
+						{
+							"answerText":"14",
+							"isCorrect":true
+						},
+						{
+							"answerText":"17",
+							"isCorrect":false
+						},
+						{
+							"answerText":"21",
+							"isCorrect":false
+						},
+						{
+							"answerText":"28",
 							"isCorrect":false
 						}
 					]

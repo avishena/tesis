@@ -54,23 +54,23 @@
 					]
 				},
 				{
-					"questionText":"216 + (-64) x 8 - (-188) = ....",
+					"questionText":"3/8 + 2/5 + 1,2 = ....",
 					"answers":
 					[
 						{
-							"answerText":"-540",
+							"answerText":"1 29/80",
 							"isCorrect":false
 						},
 						{
-							"answerText":"-108",
+							"answerText":"1 39/40",
 							"isCorrect":true
 						},
 						{
-							"answerText":"108",
+							"answerText":"1 7/10",
 							"isCorrect":false
 						},
 						{
-							"answerText":"540",
+							"answerText":"1 13/20",
 							"isCorrect":false
 						}
 					]
@@ -120,45 +120,45 @@
 					]
 				},
 				{
-					"questionText":"-40 + [20 x (-12)] : 4 = ....",
+					"questionText":"4,51 - 8/25 - 1 1/4 = ....",
 					"answers":
 					[
 						{
-							"answerText":"-180",
+							"answerText":"1,94",
 							"isCorrect":false
 						},
 						{
-							"answerText":"-100",
+							"answerText":"1,64",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2,04",
+							"isCorrect":false
+						},
+						{
+							"answerText":"2,94",
 							"isCorrect":true
-						},
-						{
-							"answerText":"-70",
-							"isCorrect":false
-						},
-						{
-							"answerText":"100",
-							"isCorrect":false
 						}
 					]
 				},
 				{
-					"questionText":"2.786 + 390 : 26 = ....",
+					"questionText":"1,47 x 3 1/3 = ....",
 					"answers":
 					[
 						{
-							"answerText":"122",
+							"answerText":"4,2",
 							"isCorrect":false
 						},
 						{
-							"answerText":"2.801",
+							"answerText":"4,9",
 							"isCorrect":true
 						},
 						{
-							"answerText":"3.202",
+							"answerText":"5,2",
 							"isCorrect":false
 						},
 						{
-							"answerText":"3.378",
+							"answerText":"5,6",
 							"isCorrect":false
 						}
 					]
@@ -208,23 +208,23 @@
 					]
 				},
 				{
-					"questionText":"128 - 45 : 15 x 15 = ....",
+					"questionText":"3/5 x 2/4 = ....",
 					"answers":
 					[
 						{
-							"answerText":"84",
+							"answerText":"12/10",
 							"isCorrect":false
 						},
 						{
-							"answerText":"83",
+							"answerText":"5/10",
+							"isCorrect":false
+						},
+						{
+							"answerText":"6/20",
 							"isCorrect":true
 						},
 						{
-							"answerText":"205",
-							"isCorrect":false
-						},
-						{
-							"answerText":"96",
+							"answerText":"5/20",
 							"isCorrect":false
 						}
 					]

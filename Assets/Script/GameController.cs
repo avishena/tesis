@@ -35,6 +35,8 @@ public class GameController : MonoBehaviour {
     public AudioClip rightHookSound;
     public AudioClip leftHookSound;
     public AudioClip clickSound;
+    public AudioClip loseSound;
+    public AudioClip winSound;
 
     private LevelScreenController dataController;
     private RoundData currentRoundData;
@@ -57,6 +59,7 @@ public class GameController : MonoBehaviour {
     private int attackValueNow;
     private Sprite questionImage;
     private AudioSource source;
+    private AudioSource openingSource;
     private List<GameObject> answerButtonGameObjects = new List<GameObject>();
 
     float counter = 0;
@@ -76,6 +79,11 @@ public class GameController : MonoBehaviour {
     private void Awake()
     {
         source = GetComponent<AudioSource>();
+        openingSource = GameObject.FindWithTag("opening").GetComponent<AudioSource>();
+        openingSource.Stop();
+        source.Play();
+
+        //Destroy(openingSource);
     }
 
     // Use this for initialization
@@ -119,6 +127,7 @@ public class GameController : MonoBehaviour {
 
     private void ShowQuestion()
     {
+        source.Play();
         RemoveAnswerButtons();
         QuestionData questionData = questionPool[questionIndex];
         if (questionData.hasImage)
@@ -232,6 +241,8 @@ public class GameController : MonoBehaviour {
         } else
         {
             EndRound();
+            source.Stop();
+            source.PlayOneShot(winSound, 1f);
         }
     }
 
@@ -252,6 +263,12 @@ public class GameController : MonoBehaviour {
     public void ReturnToMenu()
     {
         SceneManager.LoadScene("opening");
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("opening");
+
+        if (objs.Length > 0)
+        {
+            Destroy(objs[0]);
+        }
     }
 
     private void UpdateTimeRemainingDisplay(float time)
@@ -304,14 +321,14 @@ public class GameController : MonoBehaviour {
     {
         float averageScore = Mathf.Round(playerScore / (questionIndex + 1)) * 10;
 
-        Debug.Log("score : " + averageScore);
-        Debug.Log("attack : " + attackValue);
+        //Debug.Log("score : " + averageScore);
+        //Debug.Log("attack : " + attackValue);
 
         float efPlayerScore = (averageScore - scoreMin) / (scoreMax - scoreMin);
         float efEnemyPower = (attackValue - powerMin) / (powerMax - powerMin);
 
-        Debug.Log("ef score : " + efPlayerScore);
-        Debug.Log("ef attack : " + efEnemyPower);
+        //Debug.Log("ef score : " + efPlayerScore);
+        //Debug.Log("ef attack : " + efEnemyPower);
 
         float totalEf = countTotalEf(averageScore, playerSpeed, attackValue, timeRemaining);
         float abilities = totalEf / 1;
@@ -320,12 +337,12 @@ public class GameController : MonoBehaviour {
         bool decision = false;
         decision = diffef > (0.05 * efPlayerScore);
 
-        Debug.Log("diffef : " + diffef);
+        //Debug.Log("diffef : " + diffef);
 
         float adj = diffef * (powerMax - powerMin);
 
-        Debug.Log("adj : " + adj);
-        Debug.Log("attack before : " + attackValueNow);
+        //Debug.Log("adj : " + adj);
+        //Debug.Log("attack before : " + attackValueNow);
 
         if (efPlayerScore > efEnemyPower)
         {
@@ -340,22 +357,22 @@ public class GameController : MonoBehaviour {
             }
         }
 
-        Debug.Log("attack after : " + attackValueNow);
+        //Debug.Log("attack after : " + attackValueNow);
     }
 
     private void adjustSvbpAttribute()
     {
 
-        Debug.Log("player : " + playerSpeed);
-        Debug.Log("enemy : " + timeRemaining);
+        //Debug.Log("player : " + playerSpeed);
+        //Debug.Log("enemy : " + timeRemaining);
 
         float efPlayerSpeed = (actionMax - playerSpeed) / (actionMax - actionMin);
         float efEnemySpeed = (speedMax - timeRemaining) / (speedMax - speedMin);
 
         float averageScore = Mathf.Round(playerScore / (questionIndex + 1)) * 10;
 
-        Debug.Log("speed player : " + efPlayerSpeed);
-        Debug.Log("speed enemy : " + efEnemySpeed);
+        //Debug.Log("speed player : " + efPlayerSpeed);
+        //Debug.Log("speed enemy : " + efEnemySpeed);
 
         float totalEf = countTotalEf(averageScore, playerSpeed, attackValue, timeRemaining);
         // float totalEf = countTotalEfSvbp(playerSpeed, timeRemaining);
@@ -367,7 +384,7 @@ public class GameController : MonoBehaviour {
 
         float adj = -diffef * (speedMax - speedMin);
 
-        Debug.Log("speed before : " + timeRemainingStart);
+        //Debug.Log("speed before : " + timeRemainingStart);
 
         if (efPlayerSpeed > efEnemySpeed)
         {
@@ -382,7 +399,7 @@ public class GameController : MonoBehaviour {
             UpdateTimeRemainingDisplay(timeRemaining);
         }
 
-        Debug.Log("speed after : " + timeRemainingStart);
+        //Debug.Log("speed after : " + timeRemainingStart);
     }
 
     // Update is called once per frame
@@ -443,6 +460,8 @@ public class GameController : MonoBehaviour {
                 {
                     playerDieStat = false;
                     EndRound();
+                    source.Stop();
+                    source.PlayOneShot(loseSound, 1f);
                 }
             }
         }

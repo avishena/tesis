@@ -10,6 +10,14 @@ public class LevelScreenController : MonoBehaviour {
 
     private PlayerProgress playerProgress;
 
+    public AudioClip clickSound;
+    private AudioSource source;
+
+    private void Awake()
+    {
+        source = GetComponent<AudioSource>();
+    }
+
     void Start()
     {
         DontDestroyOnLoad(gameObject);
@@ -310,10 +318,17 @@ public class LevelScreenController : MonoBehaviour {
     public void ReturnToMenu()
     {
         SceneManager.LoadScene("opening");
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("opening");
+
+        if (objs.Length > 0)
+        {
+            Destroy(objs[0]);
+        }
     }
 
     public void LoadOperasiHitung()
     {
+        source.PlayOneShot(clickSound, 1f);
         string filePath = Path.Combine(Application.streamingAssetsPath, "operasiHitung.json");
 
         if (File.Exists(filePath))
@@ -336,6 +351,7 @@ public class LevelScreenController : MonoBehaviour {
 
     public void LoadPangkatDanAkarBilangan()
     {
+        source.PlayOneShot(clickSound, 1f);
         string filePath = Path.Combine(Application.streamingAssetsPath, "pangkatDanAkarBilangan.json");
 
         if (File.Exists(filePath))
@@ -358,6 +374,7 @@ public class LevelScreenController : MonoBehaviour {
 
     public void LoadFPBdanKPK()
     {
+        source.PlayOneShot(clickSound, 1f);
         string filePath = Path.Combine(Application.streamingAssetsPath, "FPBDanKPK.json");
 
         if (File.Exists(filePath))
@@ -380,6 +397,7 @@ public class LevelScreenController : MonoBehaviour {
 
     public void LoadBangunDatarDanRuang()
     {
+        source.PlayOneShot(clickSound, 1f);
         string filePath = Path.Combine(Application.streamingAssetsPath, "bangunDatarDanRuang.json");
 
         if (File.Exists(filePath))
@@ -402,6 +420,7 @@ public class LevelScreenController : MonoBehaviour {
 
     public void LoadDiagram()
     {
+        source.PlayOneShot(clickSound, 1f);
         string filePath = Path.Combine(Application.streamingAssetsPath, "Diagram.json");
 
         if (File.Exists(filePath))
